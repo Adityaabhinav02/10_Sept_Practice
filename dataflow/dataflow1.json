@@ -49,7 +49,7 @@
 				"sqlSource filter(greaterOrEqual(Salary, 50000)) ~> salarygreaterthan51000",
 				"salarygreaterthan51000 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     umask: 0777,",
+				"     umask: 0222,",
 				"     preCommands: [],",
 				"     postCommands: [],",
 				"     skipDuplicateMapInputs: true,",
